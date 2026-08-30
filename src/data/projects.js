@@ -15,7 +15,7 @@ export const projects = [
     category: "AI / Computer Vision / Industrial Inspection",
     filterCategory: "AI",
     description: "AI-powered corrosion detection and inspection system designed to automatically identify corrosion using computer vision and deep learning.",
-    image: "/assets/projects/sentinel-corro.svg",
+    image: `${import.meta.env.BASE_URL}assets/projects/sentinel-corro.svg`,
     technologies: [
       "YOLOv8",
       "Python",
@@ -59,7 +59,7 @@ export const projects = [
     category: "Mobile / Flutter / Firebase",
     filterCategory: "Mobile",
     description: "My Notes App is a mobile note-taking application developed using Flutter and Firebase. The application allows users to create an account, securely log in, and manage their personal notes through a simple and user-friendly interface.",
-    image: "/assets/projects/my-notes-app.svg",
+    image: `${import.meta.env.BASE_URL}assets/projects/my-notes-app.svg`,
     technologies: [
       "Flutter",
       "Dart",
@@ -98,7 +98,7 @@ export const projects = [
     category: "IoT / Embedded",
     filterCategory: "IoT",
     description: "An IoT-based smart navigation and assistive technology concept focused on connected devices, sensors, real-time information, and intelligent navigation.",
-    image: "/assets/projects/smart-iot.svg",
+    image: `${import.meta.env.BASE_URL}assets/projects/smart-iot.svg`,
     technologies: [
       "IoT",
       "Sensors",
@@ -129,7 +129,7 @@ export const projects = [
     category: "Full-Stack Web Development",
     filterCategory: "Web",
     description: "A modern e-commerce platform designed to provide customers with a smooth shopping experience while giving administrators tools to manage products, orders, and users.",
-    image: "/assets/projects/ecommerce-platform.svg",
+    image: `${import.meta.env.BASE_URL}assets/projects/ecommerce-platform.svg`,
     technologies: [
       "HTML",
       "CSS",
@@ -163,7 +163,7 @@ export const projects = [
     category: "AI / Web / Mobile",
     filterCategory: "AI",
     description: "A complete inspection platform that combines AI-powered corrosion detection with web and mobile interfaces for managing inspections and results.",
-    image: "/assets/projects/ai-corrosion-platform.svg",
+    image: `${import.meta.env.BASE_URL}assets/projects/ai-corrosion-platform.svg`,
     technologies: [
       "YOLOv8",
       "React.js",
@@ -200,7 +200,7 @@ export const projects = [
     category: "Cybersecurity / Security Testing",
     filterCategory: "Cybersecurity",
     description: "A practical cybersecurity assessment workflow involving reconnaissance, network scanning, service enumeration, web application testing, vulnerability assessment, and security analysis.",
-    image: "/assets/projects/security-assessment.svg",
+    image: `${import.meta.env.BASE_URL}assets/projects/security-assessment.svg`,
     technologies: [
       "Kali Linux",
       "Nmap",
