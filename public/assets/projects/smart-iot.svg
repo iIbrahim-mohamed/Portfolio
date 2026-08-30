@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#022c22"/>
+      <stop offset="100%" stop-color="#064e3b"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="450" fill="url(#bg3)" rx="16"/>
+  <!-- Central Hub Circle -->
+  <circle cx="400" cy="225" r="70" fill="#065f46" stroke="#34d399" stroke-width="3"/>
+  <text x="400" y="220" font-family="sans-serif" font-weight="bold" font-size="16" fill="#a7f3d0" text-anchor="middle">IoT HUB</text>
+  <text x="400" y="240" font-family="sans-serif" font-size="11" fill="#6ee7b7" text-anchor="middle">Real-Time Sync</text>
+
+  <!-- Connected Nodes -->
+  <line x1="400" y1="225" x2="200" y2="120" stroke="#34d399" stroke-width="2" stroke-dasharray="6 4"/>
+  <circle cx="200" cy="120" r="40" fill="#047857" stroke="#6ee7b7" stroke-width="2"/>
+  <text x="200" y="125" font-family="sans-serif" font-size="11" fill="#ecfdf5" text-anchor="middle">Sensors</text>
+
+  <line x1="400" y1="225" x2="600" y2="120" stroke="#34d399" stroke-width="2" stroke-dasharray="6 4"/>
+  <circle cx="600" cy="120" r="40" fill="#047857" stroke="#6ee7b7" stroke-width="2"/>
+  <text x="600" y="125" font-family="sans-serif" font-size="11" fill="#ecfdf5" text-anchor="middle">Telemetry</text>
+
+  <line x1="400" y1="225" x2="200" y2="330" stroke="#34d399" stroke-width="2" stroke-dasharray="6 4"/>
+  <circle cx="200" cy="330" r="40" fill="#047857" stroke="#6ee7b7" stroke-width="2"/>
+  <text x="200" y="335" font-family="sans-serif" font-size="11" fill="#ecfdf5" text-anchor="middle">Navigation</text>
+
+  <line x1="400" y1="225" x2="600" y2="330" stroke="#34d399" stroke-width="2" stroke-dasharray="6 4"/>
+  <circle cx="600" cy="330" r="40" fill="#047857" stroke="#6ee7b7" stroke-width="2"/>
+  <text x="600" y="335" font-family="sans-serif" font-size="11" fill="#ecfdf5" text-anchor="middle">Alerts</text>
+</svg>

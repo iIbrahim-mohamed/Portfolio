@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg6" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#050505"/>
+      <stop offset="50%" stop-color="#0d1b2a"/>
+      <stop offset="100%" stop-color="#1b263b"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="450" fill="url(#bg6)" rx="16"/>
+  <!-- Terminal Window Frame -->
+  <rect x="80" y="50" width="640" height="350" fill="#030712" stroke="#00f2fe" stroke-width="2" rx="12"/>
+  <rect x="80" y="50" width="640" height="35" fill="#111827" rx="12"/>
+  <circle cx="105" cy="67" r="6" fill="#ef4444"/>
+  <circle cx="125" cy="67" r="6" fill="#f59e0b"/>
+  <circle cx="145" cy="67" r="6" fill="#10b981"/>
+  <text x="400" y="72" font-family="monospace" font-weight="bold" font-size="13" fill="#00f2fe" text-anchor="middle">kali@security-lab:~ / pentesting-workflow</text>
+
+  <!-- Terminal Output -->
+  <text x="110" y="115" font-family="monospace" font-size="13" fill="#10b981">root@kali:~# nmap -sV -sC -p- 192.168.1.100</text>
+  <text x="110" y="135" font-family="monospace" font-size="12" fill="#9ca3af">Starting Nmap 7.94 ( https://nmap.org ) at 2026-08-30</text>
+  <text x="110" y="155" font-family="monospace" font-size="12" fill="#38bdf8">PORT     STATE SERVICE VERSION</text>
+  <text x="110" y="175" font-family="monospace" font-size="12" fill="#e5e7eb">80/tcp   open  http    Apache httpd 2.4.52</text>
+  <text x="110" y="195" font-family="monospace" font-size="12" fill="#e5e7eb">443/tcp  open  ssl/http OpenSSL 1.1.1t</text>
+  
+  <text x="110" y="230" font-family="monospace" font-size="13" fill="#10b981">root@kali:~# wpscan --url https://target-app.local --enumerate u,vp</text>
+  <text x="110" y="250" font-family="monospace" font-size="12" fill="#fbbf24">[+] OWASP ZAP Proxy Intercept &amp; Vulnerability Assessment active</text>
+  <text x="110" y="270" font-family="monospace" font-size="12" fill="#ef4444">[!] Security Finding: Missing HTTP Security Headers (HSTS, CSP)</text>
+  <text x="110" y="290" font-family="monospace" font-size="12" fill="#10b981">[+] Hardening Plan: Generated remediation patch &amp; firewall rules</text>
+
+  <text x="110" y="330" font-family="monospace" font-size="13" fill="#00f2fe">root@kali:~# echo "ASSESSMENT STATUS: SECURE &amp; AUDITED" &#9648;</text>
+</svg>

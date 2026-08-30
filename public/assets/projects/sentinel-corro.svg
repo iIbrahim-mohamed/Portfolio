@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b132b"/>
+      <stop offset="100%" stop-color="#1c2541"/>
+    </linearGradient>
+    <linearGradient id="glowCyan" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00f2fe"/>
+      <stop offset="100%" stop-color="#4facfe"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="450" fill="url(#bg1)" rx="16"/>
+  <!-- Bounding Boxes for YOLO detection -->
+  <rect x="180" y="100" width="240" height="200" fill="none" stroke="#00f2fe" stroke-width="3" stroke-dasharray="6 4"/>
+  <rect x="175" y="75" width="130" height="24" fill="#00f2fe"/>
+  <text x="185" y="92" font-family="sans-serif" font-weight="bold" font-size="13" fill="#0b132b">Corrosion: 98.4%</text>
+
+  <!-- Heatmap Visual Representation -->
+  <circle cx="300" cy="200" r="70" fill="#ef4444" opacity="0.45"/>
+  <circle cx="300" cy="200" r="40" fill="#f97316" opacity="0.6"/>
+  <circle cx="300" cy="200" r="20" fill="#eab308" opacity="0.8"/>
+
+  <!-- UI Panel Overlays -->
+  <rect x="470" y="80" width="280" height="290" fill="#0f172a" stroke="#334155" stroke-width="2" rx="12"/>
+  <text x="490" y="120" font-family="sans-serif" font-weight="bold" font-size="18" fill="#f8fafc">SENTINEL CORRO</text>
+  <text x="490" y="145" font-family="sans-serif" font-size="12" fill="#94a3b8">YOLOv8 + OpenCV + Grad-CAM</text>
+
+  <rect x="490" y="170" width="240" height="36" fill="#1e293b" rx="6"/>
+  <text x="505" y="193" font-family="sans-serif" font-size="13" fill="#38bdf8">Inspection Result: PASS</text>
+
+  <rect x="490" y="220" width="240" height="36" fill="#1e293b" rx="6"/>
+  <text x="505" y="243" font-family="sans-serif" font-size="13" fill="#34d399">Confidence Score: 98.4%</text>
+
+  <rect x="490" y="270" width="240" height="36" fill="#1e293b" rx="6"/>
+  <text x="505" y="293" font-family="sans-serif" font-size="13" fill="#c084fc">PDF Report: Generated</text>
+
+  <rect x="490" y="325" width="240" height="30" fill="url(#glowCyan)" rx="6"/>
+  <text x="610" y="345" font-family="sans-serif" font-weight="bold" font-size="12" fill="#0f172a" text-anchor="middle">VIEW AI ANALYTICS</text>
+</svg>

@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e1b4b"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="450" fill="url(#bg2)" rx="16"/>
+  <!-- Mobile Device Frame -->
+  <rect x="270" y="40" width="260" height="370" fill="#020617" stroke="#38bdf8" stroke-width="3" rx="28"/>
+  <rect x="360" y="55" width="80" height="12" fill="#1e293b" rx="6"/>
+  
+  <!-- Screen Header -->
+  <rect x="285" y="80" width="230" height="40" fill="#0f172a" rx="8"/>
+  <text x="300" y="105" font-family="sans-serif" font-weight="bold" font-size="14" fill="#f8fafc">My Notes</text>
+  <circle cx="495" cy="100" r="10" fill="#38bdf8"/>
+
+  <!-- Note Card 1 -->
+  <rect x="285" y="135" width="230" height="75" fill="#1e293b" rx="10" stroke="#334155"/>
+  <text x="300" y="160" font-family="sans-serif" font-weight="bold" font-size="13" fill="#38bdf8">Flutter &amp; Firebase Architecture</text>
+  <text x="300" y="180" font-family="sans-serif" font-size="11" fill="#94a3b8">Cloud Firestore real-time sync with authentication...</text>
+  
+  <!-- Note Card 2 -->
+  <rect x="285" y="220" width="230" height="75" fill="#1e293b" rx="10" stroke="#334155"/>
+  <text x="300" y="245" font-family="sans-serif" font-weight="bold" font-size="13" fill="#f43f5e">★ Favorite Note: Security Specs</text>
+  <text x="300" y="265" font-family="sans-serif" font-size="11" fill="#94a3b8">JWT tokens &amp; encrypted user Firestore rules...</text>
+
+  <!-- Note Card 3 -->
+  <rect x="285" y="305" width="230" height="70" fill="#1e293b" rx="10" stroke="#334155"/>
+  <text x="300" y="330" font-family="sans-serif" font-weight="bold" font-size="13" fill="#a855f7">🌐 Public Note: Project Roadmap</text>
+</svg>
