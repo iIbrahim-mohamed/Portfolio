@@ -6,7 +6,6 @@ export const certificationCategories = [
   "Cloud",
   "Other"
 ];
-
 export const certifications = [
   {
     id: 1,
@@ -15,7 +14,7 @@ export const certifications = [
     date: "Specialized Training",
     category: "Cybersecurity",
     description: "Practical security training certificate covering vulnerability assessment, web application security testing, and penetration testing methodologies.",
-    image: "/assets/certificates/cert-placeholder.svg",
+    image: `${import.meta.env.BASE_URL}assets/certificates/cert-placeholder.svg`,
     link: null,
     credentialId: null
   },
@@ -26,7 +25,7 @@ export const certifications = [
     date: "Hands-on Practical Module",
     category: "Cybersecurity",
     description: "Practical pentesting qualification covering service enumeration, OWASP ZAP vulnerability scanning, and Linux system security testing.",
-    image: "/assets/certificates/cert-placeholder.svg",
+    image: `${import.meta.env.BASE_URL}assets/certificates/cert-placeholder.svg`,
     link: null,
     credentialId: null
   },
@@ -37,7 +36,7 @@ export const certifications = [
     date: "Deep Learning & Vision",
     category: "Development",
     description: "Specialized certification in automated inspection, YOLOv8 object detection, and computer vision feature extraction using OpenCV.",
-    image: "/assets/certificates/cert-placeholder.svg",
+    image: `${import.meta.env.BASE_URL}assets/certificates/cert-placeholder.svg`,
     link: null,
     credentialId: null
   }
